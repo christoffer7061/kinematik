@@ -1,0 +1,23 @@
+{
+  "name": "kinematik",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Interaktiv læringsside om kinematik og kræfter til gymnasiet",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "katex": "^0.18.9"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.8",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.2"
+  }
+}
